@@ -1,0 +1,120 @@
+
+body{
+    display: flex;
+    justify-content: center;
+  
+  
+    background: #fdfdff;
+   
+   
+
+
+}
+.box{
+    position: relative;
+    width: 380px;
+    height: 740px;
+    margin-top: 40px;
+   border: 1px solid rgb(162, 165, 168);
+   border-radius: 10px;
+   
+}
+
+
+form{
+  
+   
+    padding: 30px 30px;
+  
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    color: #1b1b1b;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+    
+}
+.inputbox input{
+    width: 300px;
+    height: 25px;
+    color: black;
+   border: 1px solid gray;
+    background-color: transparent;
+    margin-top: 5px;
+   
+}
+.inputbox{
+    margin-top: px;
+  
+}
+.inputbox label{
+    font-size: 10px;
+}
+
+input[type="submit"]{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #f6d207;
+    padding: 2px;
+    margin-top: 3px;
+    border-radius: 10px;
+   
+   
+}
+
+
+
+.links{
+    margin-top: 5px;
+}
+.links a{
+    margin: 25px 0;
+ 
+    color: #082fef;
+    text-decoration: none;
+    font-size: 14px;
+}
+.links a:hover
+{
+    color: #ed1414;
+    border-bottom:  1px solid red;
+
+}
+.act
+{width:450px;
+    height: 20px;
+margin-top: 50px;
+font-size: 15px;
+display: flex;
+color: rgb(105, 103, 103);
+
+
+}
+button{
+width: 300px;
+height: 26px; 
+background-color: #f6d207;
+
+border: none;
+margin-top: 15px;
+border-radius: 5px;
+}
+button:hover{
+    color: #0c0c0d;
+   
+    background-color: #f4840d;
+    
+}
+
+
+
+.act div {
+  
+
+}
+
+

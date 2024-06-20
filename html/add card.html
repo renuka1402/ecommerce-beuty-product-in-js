@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/buy.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden;
+        }
+        #show{
+            width: 60px;
+            height: 50px;
+            color: blue;
+          
+            border: 1px solid rgb(142, 142, 136);
+            font-size: 30px;
+            margin-top: 10px;
+           
+        }
+    
+        #m1{
+            width: 40px;
+            height: 50px;
+         
+       
+            border: 1px solid rgb(142, 142, 136);
+            font-size: 30px;
+            margin: 10px;
+        }
+        #p1{
+       
+            border: 1px solid rgb(183, 183, 179);
+            font-size: 30px;
+           width: 40px;
+           height: 50px;
+           margin: 10px;
+       
+       }
+       .Order{
+        border: 2px solid rgb(101, 97, 97);
+        margin-left: 20px;
+     margin-top: 100px;
+     width: 300px;
+     height: 570px;
+    
+       }
+       .Order span{
+        margin-left: 20px;
+       
+       }
+       button{
+    width: 230px;
+    height: 40px;
+    
+    
+    background-color: rgb(245, 203, 13);
+    border-radius: 10px;
+    border: none;
+}
+.pic{
+    display: flex;
+    height: 450px;
+    margin-top: 60px;
+   margin-left: 10px;
+    width: 100%;
+    box-shadow: 5px 5px 5px 5px rgb(172, 169, 169);
+    overflow: hidden;
+   
+}
+.pic img{
+    margin: 15px;
+   
+    background-color: rgb(240, 248, 255);
+    width: 200px;
+    height: 250px;
+   
+}
+
+.pic img:hover{
+    scale: 1.2;
+    transition: scale 0.5s ease-out;
+    overflow: hidden;
+}
+        
+      
+    </style>
+</head>
+<body>
+    <div class="logo">
+   
+        <div style="background-color: black; padding: 10px;">
+          
+          
+          <input type="search" placeholder="search" >
+          </div>
+    <ul id="mega" onmouseleave="hidetop()">
+    
+  
+       <li onmouseenter="Store1()"><a href="#">Home</a></li>
+            <li onmouseenter="mac1()"><a href="#">Products</a></li>
+            <li onmouseenter="ipad1()"><a href="#">About</a></li>
+            <li onmouseenter="phone1()"><a href="#">Service</a></li>
+            <li onmouseenter="vision1()"><a href="#">Sell</a></li>
+            <li onmouseenter="watch1()"><a href="#">Support</a></li>
+            <li onmouseenter="teli1()"><a href="#">custumber Service</a></li>
+         
+           
+         <li><i class="fa fa-search"></i></li>
+         <li><i class="fa fa-card"></i></li>
+    
+           
+        </ul>
+  <section class="buynow">
+    <div class=" pic1" >
+        <div onmouseover="i1()" id="i1">
+            <img src="./img/o1.jpg">
+        </div>
+        <div  onmouseover="i2()" id="i2">
+            <img src="./img/o2.jpg">
+        </div>
+        <div onmouseover="i3()" id="i3">
+            <img src="./img/o3.jpg">
+        </div>
+        <div onmouseover="i4()" id="i4" >
+            <img src="./img/o4.jpg">
+        </div>
+        
+            <div onmouseover="i5()" id="i5">
+            <img src="./img/05.jpg">
+        </div>
+    </div>
+    <div class="pic2" id="pic2">
+        
+        <img src="./img/614dUeZq7fL._AC_UL480_FMwebp_QL65_.webp">
+    </div>
+
+
+    
+
+
+    <div class="ola1">
+       <div style="font-size: 25px; "> <b>Olay Regenerist Micro-Sculpting Cream <br>Face Moisturizer with <br> Hyaluronic Acid & Fragrance-Free</b><br></div><br>
+       
+_______________________________________________<br>
+<br>
+<div style="font-size: 30px; color: rgb(68, 110, 248);" >
+$39.99 ($23.52 / Ounce)<br></div>
+$34.16 Shipping & Import Fees Deposit to India Details <br>
+Available at a lower price from other sellers <br>that may not offer free Prime shipping.<br><br>
+
+<center>
+    <div style="display: flex; margin: 5px; border: 1px solid rgb(182, 176, 176); width: 190px; margin-right: 220px; " >
+    <button id="m1" onclick="m()";>-</button>
+     <div id="show">1</div>
+     <button id="p1" onclick="p()";>+</button>
+    
+ </div>
+ </center>
+ 
+     <script>
+      let number=1;
+   
+      function p(){
+      
+         document.getElementById('show').innerHTML=++number;
+ 
+      }
+ 
+     
+      function m(){
+         if(number>1)
+         {
+ 
+             document.getElementById('show').innerHTML=--number;
+         }
+         else
+         {
+             document.getElementById('show').innerHTML=1;
+         }
+      }
+ 
+     </script>
+     <br><br>
+     Brand: Olay<br>
+     Scent: Fragrance Free<br>
+     Item Form: Cream<br>
+     Active Ingredients: hyaluronic_acid<br>
+     Unit Count: 1.7 Ounce<br>
+     </div>
+  /<br><br>
+  <div class="Order">
+    <span><br>
+        <br><br>
+<span style="width: 300px;">$39.99 ($23.52 / Ounce)<br><br><br>
+    <span>$34.16 Shipping & Import Fees<br><span style="color: rgb(62, 62, 248);"> Details  
+ Delivery Tuesday, October 31</span>.<br><span> Order within 14 hrs 33 mins</span><br><br><br>
+ <span><i  class="fa fa-map-marker" style="color: rgb(48, 89, 212);">Deliver to India</i><br><br><br>
+<span style="font-size: 30px; color: green; font-family: sans-serif;">In Stock</span><br><br>
+&nbsp; &nbsp; &nbsp; &nbsp;<button><a href="adress.html">Buy now</a> </button><br><br>
+ &nbsp; &nbsp; &nbsp; &nbsp;Payment:
+<span style="color: rgb(81, 146, 249);"> transaction transaction</span><br>
+&nbsp; &nbsp; &nbsp; &nbsp;Ships from:
+<span style="color: rgb(81, 146, 249);"> online.com</span><br>
+
+&nbsp; &nbsp; &nbsp; &nbsp;Sold by:
+<span style="color: rgb(81, 146, 249);"> online.com</span><br>
+
+
+&nbsp; &nbsp; &nbsp; &nbsp;Returns:
+<span style="color: rgb(81, 146, 249);">Eligible for Return,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Refund or Replacement<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; within 30 days of receipt </span><br>
+  
+    
+</span>
+ 
+    </div>
+</div>
+</section>
+    <div class="pic">
+        <div>
+       <img src="./img/ola.jpg"><br>
+       Olay Micro-Cream <br>Face Moisturizer <br>with Sunscreen, <br>
+ 
+
+$12.79 ($25.58/Ounce)<br>
+$10.39 shipping
+    </div>
+    <div>
+       <img src="./img/ola1.jpg"><br>
+       Olay regenerist<br> retinol 24 <br> fragrance free, <br>
+
+<br>
+$18.00 ($13.33/Fl Oz)
+       
+    </div>
+       <div>
+       <img src="./img/ola2.jpg"><br>
+       Olay Micro-Sculpting<br> Cream Face Moisturizer<br> 
+
+
+$12.79 ($25.58/Ounce)<br>
+$10.39 shipping
+    </div>
+<div>
+       <img src="./img/ola5.jpg"><br>
+       Olay Regenerist Micro<br>
+Olay Regenerist<br>
+
+$20.76 ($12.21/Fl Oz)
+    </div>
+       <div>
+       <img src="./img/ola6.jpg"><br>
+       Olay Total Effects 7 <br>
+Olay Total Effects<br>
+<br>
+$21.99 ($12.94/Ounce)<br>
+$11.14 shipping
+    </div>
+       <div>
+
+       <img src="./img/ola10.jpg"><br>
+       Olay Regenerist Vitamin C + <br> 
+
+$28.99 ($17.05/Fl Oz)<br>
+Only 18 left </div>
+   
+    </div>
+    <div class="top">
+        <button type="button" style="width: 1500px; height: 40px; background-color: rgb(7, 59, 94); color: rgb(243, 246, 248); margin-top: 70px; font-size: 20px;"><a href="./buy.html" >Back</a></button>
+    </div>
+    
+    <div id="showmega">
+        <ul>
+            <li><a href="#">shop</a></li>
+            <li><a href="#"><h1>Get to know us</h1></a></li>
+            <li><a href="#"><h3>careers</h3></a></li>
+            <li><a href="#"><h3>blog</h3></a></li>
+            <li><a href="#"><h3>About onlineshopping</h3></a></li>
+            <li><a href="#"><h3>Device</h3></a></li>
+            <li><a href="#"><h3>online science</h3></a></li>
+    
+           
+        </ul>
+        <ul >     <li><a href="#"><h1>	
+            Make Money with Us</h1></a></li>
+            <li><a href="#">Quick Links</a></li>
+            <li><a href="#"><h4>Find a store</h4></a></li>
+            <li><a href="#"><h4>Order Status</h4></a></li>
+            <li><a href="#"><h4>Way to buy</h4></a></li>
+            <li><a href="#"><h4>University Student Offer</h4></a></li>
+           
+        </ul>
+        <ul>
+            <li><a href="#"><h1> Payment Products</h1></a></li>
+            <li><a href="#"><h4>Business card</h4></a></li>
+            <li><a href="#"><h4>shop with point</h4></a></li>
+            <li><a href="#"><h4>Reload your  Balance</h4></a></li>
+            <li><a href="#"><h4> Currency Converter</h4></a></li>
+           
+                <input type="emailt" placeholder=" Email">
+        </ul>
+        
+        </div>
+        
+        <div class="inp">
+            __________________________________________________________________________________________________________________________________________________________________________________
+            _<br>
+            <center>
+            <input type="text" value="            English">
+            <input type="text" value="          $USD-u.s-Doller">
+            <input type="text" value="            united state"><br><br><br>
+       ________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+        <div class="finish">
+         Conditions of Use &nbsp; &nbsp; 
+Privacy Notice &nbsp; &nbsp;
+Your Ads Privacy Choices<br><br>
+© 1996-2023, Amazon.com, Inc. or its affiliates
+</center>
+        </div>
+    </div>
+       <script src="./js/buy.js"></script>
+        </div>
+</body>
+</html>

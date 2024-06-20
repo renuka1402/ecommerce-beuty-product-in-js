@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #firstlogo{
+        margin-left: 360px;
+margin-top: 150px;
+    }
+ #logo{
+    display: none;
+    background-color: rgb(22, 175, 83);
+    padding-bottom: 190px;
+ }
+ #mega img{
+margin-left: 600px;
+margin-top: 170px;
+width: 300px;
+height: 300px;
+
+ }
+   
+   
+</style>
+
+<body onload="run()">
+    <div id="firstlogo">
+        <img src="./Paymentsuccessful21.png">
+    </div>
+    <div id="logo">
+    <ul id="mega" onmouseleave="tophide()">
+        <img src="./paymentsuccess.webp">
+        <div style="color: white; font-size: 70px; margin-left: 500px;">Order Successful</div>
+     
+<script>
+function run(){
+    setTimeout(play,1000)
+    function play(){
+        document.getElementById('logo').style.display= 'block';
+        document.getElementById('firstlogo').style.display= 'none';
+     
+       
+    }
+}
+</script>
+</body>
+</html>

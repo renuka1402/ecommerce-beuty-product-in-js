@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/sing.css">
+</head>
+<body>
+    <center>
+    <div class="box">
+        <form action="">
+            <h2>Sign In</h2>
+            <div class="inputbox">
+                <div id="errorusername"  style="color: red;"></div>
+                <label for="username" style="font-size:15px "> Email or Mobile Phone number</label><br>
+                <input id="username" type="text"><br><br>
+              
+            </div>
+         
+           <br>
+            <button onclick="return run()" style="width: 300px; height: 40px;"><a href="./index.html">LOGIN</a></button><br>
+          <div style="font-size: 15px;margin-top: 15px;"> By continuing, you agree to online shopping</div> 
+ <div class="links">
+     <a href="#">Conditions of Use </a>
+     and
+     <a href="#">privacy notice</a><br><br>
+     <a href="#"> Needs  Help?</a>
+    </div> 
+
+<div class="act">
+<div style="margin-top: -7px; " >___________</div>
+New to account
+<div style="margin-top: -7px;" >___________</div>
+
+
+</div>
+<div class="bnt">
+    <button><a href="./regester.html"> create Your Account</a></button><br><br>
+    <button><a href="./index.html">back</a></button><br>
+</div>
+
+<div class="links" >
+    <a href="#">Conditions of Use &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
+    
+    <a href="#">privacy notice&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+    <a href="#">Help?</a><br><br>
+    © 1996-2023, Amazon.com, Inc. or its affiliates
+   </div>
+
+</div>
+</center>
+
+</form>
+<script>
+    function run(){
+        let username =document.getElementById('username').value;
+        if(username ==""){
+        document.getElementById('errorusername').innerHTML="please enter username";
+        document.getElementById('username').focus();
+        return false;
+    }
+    else if(!username.includes('@')){
+        document.getElementById('errorusername').innerHTML="please enter @ in username field";
+        document.getElementById('username').focus();
+        return false;
+        
+    }
+    else if(!username.includes('gmail.com')){
+        document.getElementById('errorusername').innerHTML="please enter  gmail.com";
+        document.getElementById('username').focus();
+        return false;
+        
+    }
+    }
+</script>
+
+
+</body>
+</html>

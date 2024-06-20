@@ -1,0 +1,66 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "registration": [
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "name": "Renuka sharma",
+      "username": "renu66138@gmail.com",
+      "password": "1234@",
+      "rpassword": "1234@",
+      "id": 4
+    },
+    {
+      "name": "nishant",
+      "username": "nishant12@gmail.com",
+      "password": "7654@",
+      "rpassword": "7654@",
+      "id": 5
+    }
+  ]
+}

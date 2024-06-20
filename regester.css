@@ -1,0 +1,85 @@
+
+.f{
+  
+    width: 400px;
+    height: 600px;
+
+   
+    border-radius: 10px;
+    background: transparent;
+box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
+-8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+
+padding: 4px 4px 20px; 
+  
+  }
+  
+  #username{
+    border: 1px solid rgb(190, 186, 186) ;
+      width: 350px;
+      height: 25px;
+      background: transparent;
+      
+  }
+  #name{
+    border: 1px solid rgb(190, 186, 186) ;
+    width: 350px;
+    height: 25px;
+    background: transparent; 
+   
+  }
+  #password{
+    background: transparent;
+    width: 350px;
+    height: 25px;
+    border: 1px solid rgb(190, 186, 186) ;
+  }
+  #rpassword{
+    border: 1px solid rgb(190, 186, 186) ;
+  background: transparent;
+    width: 350px;
+    height: 25px;
+  }
+  #button{
+    width: 300px;
+    height: 40px;
+   
+    background: #f6d207;
+    color: rgb(18, 19, 19);
+    border: none;
+    border-radius: 5px;
+    
+  }
+  button:hover{
+    color: #1026e4;
+    background-color: #f6d207;
+    
+}
+.links{
+    margin-top: 5px;
+    margin-right: 130px;
+}
+.links a{
+    margin: 25px 0;
+    color: #082fef;
+    text-decoration: none;
+    font-size: 14px;
+}
+.links a:hover
+{
+    color: #ed1414;
+    border-bottom:  1px solid red;
+
+}
+.last{
+    color: rgb(122, 129, 129);
+    font-size: 15px;
+}
+.last a{
+    color: rgb(17, 32, 240);
+    font-size: 18px;
+}
+h1{
+    margin-right: 100px;
+    font-size: 35px;
+}

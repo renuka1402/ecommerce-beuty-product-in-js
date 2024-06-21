@@ -1,6 +1,9 @@
 function validation(){
    
    
+
+
+
     let username =document.getElementById('username').value;
     let name= document.getElementById('name').value;
     let password = document.getElementById('password').value;
